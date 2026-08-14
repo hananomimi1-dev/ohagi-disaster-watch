@@ -1,9 +1,9 @@
 name: おはぎ防災ウォッチ
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "*/15 * * * *"
+  workflow_dispatch:  
+  schedule:  
+    - cron:   "*/15 * * * *"
 
 permissions:
   contents: write
